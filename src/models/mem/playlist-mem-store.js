@@ -14,6 +14,10 @@ export const playlistMemStore = {
     return playlist;
   },
 
+  async getUserPlaylists(userid) {
+    return playlists.filter((playlist) => playlist.userid === userid);
+  },
+
   async getPlaylistById(id) {
     const list = playlists.find((playlist) => playlist._id === id);
     list.tracks = await trackMemStore.getTracksByPlaylistId(list._id);
