@@ -1,3 +1,32 @@
 {
-    "tracks":[]
+  "tracks": [
+    {
+      "title": "a",
+      "artist": "a",
+      "duration": 3,
+      "_id": "019b4861-37e8-4425-a49f-db8fbfc38e01",
+      "playlistid": "28033c85-200a-46c9-b936-70db7dbed2d1"
+    },
+    {
+      "title": "a",
+      "artist": "a",
+      "duration": 3,
+      "_id": "48eed064-0eee-4a04-888d-352ef7020e25",
+      "playlistid": "f98f2d4d-5322-4de5-914b-fd5d7d938f92"
+    },
+    {
+      "title": "a",
+      "artist": "a",
+      "duration": 0,
+      "_id": "896a6cd2-0948-4daf-a037-0d329ef3c041",
+      "playlistid": "f98f2d4d-5322-4de5-914b-fd5d7d938f92"
+    },
+    {
+      "title": "a",
+      "artist": "3",
+      "duration": 0,
+      "_id": "f8bc50b5-2224-437e-bf6e-b3390ef3b705",
+      "playlistid": "f98f2d4d-5322-4de5-914b-fd5d7d938f92"
+    }
+  ]
 }
