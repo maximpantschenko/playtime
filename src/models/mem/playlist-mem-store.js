@@ -1,4 +1,5 @@
 import { v4 } from "uuid";
+import { trackMemStore } from "./track-mem-store.js";
 
 let playlists = [];
 
@@ -13,8 +14,14 @@ export const playlistMemStore = {
     return playlist;
   },
 
+  async getUserPlaylists(userid) {
+    return playlists.filter((playlist) => playlist.userid === userid);
+  },
+
   async getPlaylistById(id) {
-    return playlists.find((playlist) => playlist._id === id);
+    const list = playlists.find((playlist) => playlist._id === id);
+    list.tracks = await trackMemStore.getTracksByPlaylistId(list._id);
+    return list;
   },
 
   async deletePlaylistById(id) {
