@@ -1,5 +1,5 @@
 {
-  "name": "pubcrawl",
+  "name": "playtime",
   "version": "0.1.0",
   "description": "Playtime: a Hapi/node application for managing Playlists",
   "main": "src/server.js",
@@ -31,10 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maximpantschenko/pubcrawl.git"
+    "url": "git+https://github.com/maximpantschenko/playtime.git"
   },
   "bugs": {
-    "url": "https://github.com/maximpantschenko/pubcrawl/issues"
+    "url": "https://github.com/maximpantschenko/playtime/issues"
   },
-  "homepage": "https://github.com/maximpantschenko/pubcrawl#readme"
+  "homepage": "https://github.com/maximpantschenko/playtime#readme"
 }
